@@ -13,22 +13,22 @@ cask "toolkit" do
   on_macos do
     on_intel do
       url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_darwin_amd64.tar.gz"
-      sha256 "3c61a7d26cc91d98d5102a65666509c2ee7527ffd8414ac65b5648135af9437f"
+      sha256 "29772807d7602fb6ea1eeb37bbae52d0263dbd886d786857790a4dcc07da0bc3"
     end
     on_arm do
       url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_darwin_arm64.tar.gz"
-      sha256 "2b447422616e3781ebf52274636a3fcdd8d45f1902756f4b0d283583030648cb"
+      sha256 "0e161b5c6766677e56132e29b5c3449f14ed716ea1264e1bd5f32f86bbc98194"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_linux_amd64.tar.gz"
-      sha256 "473b903428611329b3ba722195a4d195c55ee288053ac8b44ba5ce1c9f5a8520"
+      sha256 "043a31e557de5b87b092900ead4f694dc6d57da4a98f8c6a9682556af4586d2d"
     end
     on_arm do
       url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_linux_arm64.tar.gz"
-      sha256 "2818d99b629d6e79c9a74beadba9f5d4e94b0a9227e7ecf6beb1cff9dde6e35d"
+      sha256 "432926e30b6058fe9aeb5a4079d062cad89eeb5c9bc136fbede5690a805776d2"
     end
   end
 
