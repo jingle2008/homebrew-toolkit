@@ -2,7 +2,7 @@
 cask "toolkit" do
   desc "Toolkit CLI: cross-platform command-line tool for cloud and infrastructure automation"
   homepage "https://github.com/jingle2008/toolkit"
-  version "0.1.2"
+  version "0.1.3"
 
   livecheck do
     skip "Auto-generated on release."
@@ -12,23 +12,23 @@ cask "toolkit" do
 
   on_macos do
     on_intel do
-      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_darwin_amd64.tar.gz"
-      sha256 "29772807d7602fb6ea1eeb37bbae52d0263dbd886d786857790a4dcc07da0bc3"
+      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.3/toolkit_0.1.3_darwin_amd64.tar.gz"
+      sha256 "f2cae7a3709a8f3744ac61f2d144f546eff2a9bc7143972ad975fe1ce3f2b157"
     end
     on_arm do
-      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_darwin_arm64.tar.gz"
-      sha256 "0e161b5c6766677e56132e29b5c3449f14ed716ea1264e1bd5f32f86bbc98194"
+      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.3/toolkit_0.1.3_darwin_arm64.tar.gz"
+      sha256 "18c09cb8285eaec5ae5e57d3eb08683d4057d1a0b95b20d186655b4c1cb1703a"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_linux_amd64.tar.gz"
-      sha256 "043a31e557de5b87b092900ead4f694dc6d57da4a98f8c6a9682556af4586d2d"
+      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.3/toolkit_0.1.3_linux_amd64.tar.gz"
+      sha256 "f2463e01e131a080125da354511a6e50d58020de29707b5cdfb87544ef10a0cc"
     end
     on_arm do
-      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.2/toolkit_0.1.2_linux_arm64.tar.gz"
-      sha256 "432926e30b6058fe9aeb5a4079d062cad89eeb5c9bc136fbede5690a805776d2"
+      url "https://github.com/jingle2008/toolkit/releases/download/v0.1.3/toolkit_0.1.3_linux_arm64.tar.gz"
+      sha256 "107f24fbf1f859bcfcc6f6689dd56e53505672e6f7e64f7e4ec1d24f80720503"
     end
   end
 
