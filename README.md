@@ -52,6 +52,26 @@ brew uninstall toolkit
 brew untap jingle2008/toolkit
 ```
 
+## Troubleshooting
+
+### macOS: "toolkit cannot be opened" / "developer cannot be verified"
+
+The macOS Gatekeeper blocks binaries downloaded from the internet that are not code-signed and notarized by Apple. The released `toolkit` binary is not yet notarized, so macOS quarantines it on first run.
+
+Remove the quarantine attribute after install:
+
+```sh
+xattr -dr com.apple.quarantine "$(brew --prefix)/bin/toolkit"
+```
+
+If you installed via the cask, you can also bypass quarantine at install time:
+
+```sh
+brew install --cask --no-quarantine jingle2008/toolkit/toolkit
+```
+
+Either approach is safe for a binary you trust. Notarization is being tracked upstream in [jingle2008/toolkit](https://github.com/jingle2008/toolkit/issues).
+
 ## Reporting issues
 
 For bugs or feature requests related to the `toolkit` CLI itself, please open an issue on the [main repository](https://github.com/jingle2008/toolkit/issues).
