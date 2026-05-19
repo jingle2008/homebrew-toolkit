@@ -35,7 +35,7 @@ brew install --cask jingle2008/toolkit/toolkit
 ## Verify your install
 
 ```sh
-toolkit --version
+toolkit version
 ```
 
 ## Upgrade
